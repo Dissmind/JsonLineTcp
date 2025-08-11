@@ -1,0 +1,1 @@
+﻿dotnet run --project .\JsonLineTcp.Client.csproj .\client.json

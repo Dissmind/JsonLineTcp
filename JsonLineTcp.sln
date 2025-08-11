@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonLineTcp.Client", "JsonL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonLineTcp.Server", "JsonLineTcp.Server\JsonLineTcp.Server.csproj", "{3F32A393-0B1A-42D1-8624-0CE200268BC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonLineTcp.Common", "JsonLineTcp.Common\JsonLineTcp.Common.csproj", "{EFA7B68D-F273-4749-9183-BD516D3632F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{3F32A393-0B1A-42D1-8624-0CE200268BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F32A393-0B1A-42D1-8624-0CE200268BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F32A393-0B1A-42D1-8624-0CE200268BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA7B68D-F273-4749-9183-BD516D3632F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA7B68D-F273-4749-9183-BD516D3632F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA7B68D-F273-4749-9183-BD516D3632F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA7B68D-F273-4749-9183-BD516D3632F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

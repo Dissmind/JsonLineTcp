@@ -1,8 +1,8 @@
-﻿using JsonLineTcp.Client.Common;
+﻿using JsonLineTcp.Interefaces;
 
 namespace JsonLineTcp.Client.Intrefaces;
 
 public interface IMessageSender
 {
-    Task<int> SendAllAsync(ILineSource lines, IJsonValidator validator, IConnection connection, CancellationToken cancellationToken);
+    Task<(int valid, int invalid)> SendAllAsync(ILineSource lines, IJsonValidator validator, IConnection connection, CancellationToken cancellationToken);
 }

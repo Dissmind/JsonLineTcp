@@ -1,4 +1,4 @@
-﻿namespace JsonLineTcp.Client.Common;
+﻿namespace JsonLineTcp.Interefaces;
 
 public interface ILineSource : IAsyncDisposable
 {
