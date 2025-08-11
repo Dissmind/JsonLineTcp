@@ -1,0 +1,59 @@
+﻿# Rider / IntelliJ IDEA
+.idea/
+*.sln.iml
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider project restore info
+*.restore.json
+
+# VS Code settings
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Others
+*.cache
+*.log
+*.tmp
+*.db
+*.db-shm
+*.db-wal
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Resharper settings
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Coverage results
+*.coverage
+*.coveragexml
+
+# JetBrains Rider project settings
+.idea/
+
+# Generated files
+*.g.*
+*.GeneratedMSBuildEditorConfig.editorconfig
+
+# Local test results
+TestResult*/
+TestResults/
+
+# Temporary files
+~$*
