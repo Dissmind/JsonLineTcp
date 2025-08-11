@@ -1,0 +1,21 @@
+﻿[Unit]
+Description=JsonLineTcp Server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/opt/jsonlinetcp/JsonLineTcp.Server /etc/jsonlinetcp/server.config.json
+
+WorkingDirectory=/opt/jsonlinetcp
+User=jsonline
+Group=jsonline
+
+Restart=always
+RestartSec=2
+
+StandardOutput=journal
+StandardError=journal
+Environment=DOTNET_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
